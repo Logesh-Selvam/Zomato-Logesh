@@ -1,0 +1,132 @@
+.Members{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    margin-top: 50px;
+} 
+/* .member{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background: url(../../assets/wave4.png);
+    background-size: 1800px 400px;
+    rotate: 180deg;
+} */
+.meb1{
+    position: absolute;
+    top: -30px;
+    z-index: 3;
+    left: 30px;
+}
+.meb2{
+     position: absolute;
+    top: -22px;
+    z-index: 3;
+    left: 70rem;
+}
+
+.member-logo{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.meb-log{
+    position: absolute;
+    top: 180px;
+}
+.mem-text{
+    position: absolute;
+    color: transparent;
+    top: 350px;
+    font-size: 27px;
+    font-family: "Lexend",sans-serif;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+       	#cb9b51 22%, 
+	    #f6e27a 45%,
+	    #f6f2c0 50%,
+	    #f6e27a 55%,
+	    #cb9b51 78%,
+	    #462523 100%
+    );
+    -webkit-background-clip: text;
+}
+.meb-bold{
+    position: absolute;
+    top: 450px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Lexend",sans-serif;
+}
+
+.free-oder{
+   position: absolute;
+   top: 32rem;
+   left: 20%;
+}
+.free-texts{
+    position: absolute;
+    top: 33rem;
+    left: 27%;
+    font-family: "Lexend",sans-serif;
+}
+.frr{
+    display: flex;
+    color: white;
+}
+.fee{
+    display: flex;
+    color:transparent;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+       	#cb9b51 22%, 
+	    #f6e27a 45%,
+	    #f6f2c0 50%,
+	    #f6e27a 55%,
+	    #cb9b51 78%,
+	    #462523 100%
+    );
+    -webkit-background-clip: text;
+}
+
+.free-iconn{
+   position: absolute;
+   top: 32rem;
+   right: 45%;
+}
+.free-textss{
+   position: absolute;
+   top: 33rem;
+   right: 23%;
+   font-family: "Lexend",sans-serif;
+}
+
+.black-img1{
+    position: absolute;
+    left: 0px;
+    top: 30rem;
+}
+.black-img2{
+    position: absolute;
+    right: 0px;
+    top: 30rem;
+}
+.last-wave{
+    position: absolute;
+    bottom: -405%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../../assets/wave2.png);
+    background-size: 1600px 400px;
+}
+

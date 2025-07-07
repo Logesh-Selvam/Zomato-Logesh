@@ -1,0 +1,87 @@
+/* .video{
+    display: flex; */
+    /* height: 859px; */
+    /* height: 700px;
+    width: 700px
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Caveat:wght@400..700&family=Dekko&family=Fuzzy+Bubbles:wght@400;700&family=Indie+Flower&family=Lexend:wght@100..900&family=Monoton&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Burned&display=swap');
+
+
+ /* .nav{
+    display: flex;
+    z-index: 1;
+    position: relative;
+ } */
+ .video{
+    display: flex;
+    width: 100%;
+    position:relative;
+    right: 0;
+    bottom: 0;
+    min-width: 90%;
+    min-height: 90%;
+    z-index: -1;
+ }
+ .nav-text{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 29%;
+    left: 41%;
+    font-family: "Lexend",sans-serif;
+ }
+ .navbar-text{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    left: 31.5%;
+    font-size: 1.9rem;
+    color: white;
+    text-align: center;
+    font-family: "Lexend",sans-serif;
+ }
+ .navbar-text1{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 35%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Lexend",sans-serif;
+ }
+ .logos{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 72%;
+    left: 35%;
+    gap: 30px;
+ }
+ .scroll{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 45%;
+    font-family: "Lexend",sans-serif;
+ }
+
+ .ANDROID:hover{
+    --edge-light: hsla(0, 0%, 50%, 1);
+  text-shadow: 0px 0px 10px var(--text-light);
+  box-shadow: inset 0.4px 1px 4px var(--edge-light),
+    2px 4px 8px hsla(0, 0%, 0%, 0.295);
+  transform: scale(1.1);
+ }
+ .Ios:hover{
+    --edge-light: hsla(0, 0%, 50%, 1);
+  text-shadow: 0px 0px 10px var(--text-light);
+  box-shadow: inset 0.4px 1px 4px var(--edge-light),
+    2px 4px 8px hsla(0, 0%, 0%, 0.295);
+  transform: scale(1.1);
+ }
